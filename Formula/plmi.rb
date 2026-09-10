@@ -4,12 +4,12 @@
 #              plmi
 #
 # sha256 은 이렇게 구한다.
-#   curl -sL https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.2.0.tar.gz | shasum -a 256
+#   curl -sL https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.2.1.tar.gz | shasum -a 256
 class Plmi < Formula
   desc "Claude Code 상태줄에 사는 도트 캐릭터 플밍이"
   homepage "https://github.com/sbwon-uglee/plmi-statusline"
-  url "https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "60053c5ca25efcf079283ff9c5964948d185b8c5c50a96cc18f47e11d33de1b2"
+  url "https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "36021671a0a2117610bc227b3c1308cdce674a08875908f637771a857152727a"
 
   # 파이썬은 의존으로 걸지 않는다. 상태줄을 그리는 쪽이 표준 라이브러리만 써서 맥에 이미
   # 있는 python3 로 충분하고, 걸어 두면 쓰지도 않을 파이썬을 통째로 받게 된다.
