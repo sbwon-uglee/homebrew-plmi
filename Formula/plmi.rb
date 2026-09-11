@@ -1,15 +1,16 @@
-# 원본은 sbwon-uglee/plmi-statusline 의 packaging/plmi.rb 다.
-# 여기 것을 직접 고치지 말고 그쪽을 고쳐 옮긴다.
+# 이 파일의 사본이 탭 저장소 `sbwon-uglee/homebrew-plmi` 의 `Formula/plmi.rb` 로 간다.
+# 여기가 원본이고, 버전을 낼 때 url 의 태그와 sha256 을 고쳐 탭에 옮긴다.
+#
 #   받는 사람:  brew install sbwon-uglee/plmi/plmi
 #              plmi
 #
 # sha256 은 이렇게 구한다.
-#   curl -sL https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.4.3.tar.gz | shasum -a 256
+#   curl -sL https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.5.0.tar.gz | shasum -a 256
 class Plmi < Formula
   desc "Claude Code 상태줄에 사는 도트 캐릭터 플밍이"
   homepage "https://github.com/sbwon-uglee/plmi-statusline"
-  url "https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.4.3.tar.gz"
-  sha256 "7cf61ae66fc496f285b711e6e7f8756c91dfe7a4383ac9dfde6fbd372c1f9849"
+  url "https://github.com/sbwon-uglee/plmi-statusline/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "b3e143cd2e92a82e1f5e65d463189f7c0428db4e2ea329699983c97ee47a3a7f"
 
   # 파이썬은 의존으로 걸지 않는다. 상태줄을 그리는 쪽이 표준 라이브러리만 써서 맥에 이미
   # 있는 python3 로 충분하고, 걸어 두면 쓰지도 않을 파이썬을 통째로 받게 된다.
